@@ -1,4 +1,4 @@
-# Photo Organizer & Copy Tool
+# Photo Organiser & Copy Tool
 
 A Rust-based TUI (Terminal User Interface) application for copying and organising photos from an unorganised source folder to an organised destination folder.
 
@@ -6,7 +6,7 @@ A Rust-based TUI (Terminal User Interface) application for copying and organisin
 
 - **Terminal User Interface**: Clean and interactive TUI built with ratatui
 - **Folder Selection**: Easy source and destination folder selection
-- **Organization Options**:
+- **Organisation Options**:
   - Flat copy (no hierarchy)
   - Year/Month hierarchy (automatically extracts date from EXIF data or file metadata)
 - **Progress Tracking**: Real-time progress display with file count and current file being processed
@@ -39,9 +39,9 @@ Or run the compiled binary:
 
 ### Instructions
 
-1. **Enter Source Folder**: Type the path to your unorganized photo folder and press Enter
+1. **Enter Source Folder**: Type the path to your unorganised photo folder and press Enter
 2. **Enter Destination Folder**: Type the path to your destination folder and press Enter
-3. **Toggle Organization**: Press `Ctrl+H` to toggle between flat copy and year/month hierarchy
+3. **Toggle Organisation**: Press `Ctrl+H` to toggle between flat copy and year/month hierarchy
 4. **Start Copying**: Press `s` to start the copy process
 5. **View Progress**: Watch the progress bar and current file being processed
 6. **Completion**: When done, press `r` to restart or `q` to quit
@@ -49,18 +49,18 @@ Or run the compiled binary:
 ### Keyboard Shortcuts
 
 - `Enter`: Submit current input
-- `Ctrl+H`: Toggle organization mode (flat vs year/month hierarchy)
+- `Ctrl+H`: Toggle organisation mode (flat vs year/month hierarchy)
 - `s`: Start copying photos (when both folders are set)
 - `r`: Restart (after completion)
 - `q` or `ESC`: Quit the application
 
-## Organization Modes
+## Organisation Modes
 
 ### Flat Copy
 Copies all photos to the destination folder without any organization.
 
 ### Year/Month Hierarchy
-Organizes photos into a hierarchical structure like:
+Organises photos into a hierarchical structure like:
 ```
 destination/
 ├── 2023/
@@ -87,3 +87,4 @@ Photos without EXIF date information are placed in an "Unknown" folder.
 ## License
 
 MIT
+
