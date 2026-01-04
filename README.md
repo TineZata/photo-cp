@@ -64,13 +64,13 @@ Organises photos into a hierarchical structure like:
 ```
 destination/
 ├── 2023/
-│   ├── 01-January/
+│   ├── 01/
 │   │   ├── photo1.jpg
 │   │   └── photo2.jpg
-│   └── 12-December/
+│   └── 12/
 │       └── photo3.jpg
 └── 2024/
-    └── 06-June/
+    └── 06/
         └── photo4.jpg
 ```
 
@@ -81,10 +81,11 @@ Photos without EXIF date information are placed in an "Unknown" folder.
 - `ratatui`: Terminal UI framework
 - `crossterm`: Cross-platform terminal manipulation
 - `walkdir`: Recursive directory traversal
-- `exif`: EXIF metadata extraction
+- `rexif`: EXIF metadata extraction
 - `chrono`: Date and time handling
 
 ## License
 
 MIT
+
 
